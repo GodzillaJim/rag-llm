@@ -1,0 +1,7 @@
+Back propagation in neural networks refers to the method used to compute the gradient of the loss function with respect to the weights of the network. It is a key component of training a neural network through techniques like stochastic gradient descent. 
+
+The process involves passing the input data forward through the network to make a prediction, calculating the error between the predicted output and the true output (loss function), and then propagating this error backward through the network to update the weights in order to minimize the error.
+
+During back propagation, the gradient of the loss function is computed with respect to each weight in the network using the chain rule of calculus. This gradient is then used to update the weights in the direction that minimizes the error, effectively optimizing the network for better performance.
+
+Overall, back propagation is a fundamental concept in training neural networks and plays a crucial role in enabling deep learning models to learn from data and make accurate predictions.

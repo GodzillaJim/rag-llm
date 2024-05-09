@@ -1,0 +1,9 @@
+ed graphical models, or they may arise from dependencies induced by the architecture of a neural network. One common approach to addressing intractable inference problems in neural networks is through the use of back propagation.
+
+Back propagation is a key concept in training neural networks. It is a method for adjusting the weights of the network in order to minimize the error between the predicted output and the actual output. The basic idea behind back propagation is to propagate the error backwards through the network, updating the weights of the neurons in each layer to reduce the error.
+
+During the forward pass of training, the input data is fed through the network and an output is produced. The error between the predicted output and the actual output is calculated using a loss function. During the backward pass, this error is propagated backwards through the network, and the weights of the neurons are adjusted using techniques such as gradient descent in order to minimize the error.
+
+By iteratively adjusting the weights through back propagation, the network learns to better approximate the desired output for a given input. This process allows the network to learn the underlying patterns and relationships in the data, enabling it to make accurate predictions on new, unseen data.
+
+Overall, back propagation is a crucial technique in training neural networks, allowing them to learn from data and improve their performance over time. It is a fundamental concept in deep learning and plays a vital role in the success of neural network models.

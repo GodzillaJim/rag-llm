@@ -1,0 +1,7 @@
+Back propagation is a key concept in neural networks that refers to the method of updating the weights of the network in order to minimize the error between the predicted output and the actual output. 
+
+When a neural network makes a prediction, the error between the predicted output and the true output is calculated using a loss function. This error is then propagated backwards through the network, layer by layer, in order to update the weights of the connections between neurons. 
+
+The back propagation algorithm uses the gradient of the loss function with respect to the weights in order to update them in a way that reduces the error. This process is repeated iteratively until the network's predictions are sufficiently accurate.
+
+Overall, back propagation is a crucial process in training neural networks as it allows the network to learn from its mistakes and improve its performance over time.
